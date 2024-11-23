@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
-  document.addEventListener("DOMContentLoaded", function () {
-          
+  document.addEventListener("DOMContentLoaded", () => {
+          if(document.body.children.length === 0){
             const textNode = document.createTextNode("DOM load success");
           
-            document.body.appendChild(textNode);
+            document.body.appendChild(textNode);}
         });
