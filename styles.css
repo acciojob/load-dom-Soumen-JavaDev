@@ -1,6 +1,7 @@
 /*  your css code here. If applicable */
-document.addEventListener("DOMContentLoaded",funtion(){
-	let text =document.CreateTextNode("DOM load success");
-
-	document.body.appendChild(text);
-})
+  document.addEventListener("DOMContentLoaded", function () {
+          
+            const textNode = document.createTextNode("DOM load success");
+          
+            document.body.appendChild(textNode);
+        });
